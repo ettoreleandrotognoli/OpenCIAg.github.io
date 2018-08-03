@@ -20,9 +20,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://openciag.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  OpenCIAg
+facebook_username: CIAgTech
 
 # Build settings
 markdown: kramdown
@@ -35,24 +36,33 @@ defaults:
     scope:
       path: ""
     values:
-      author: CIAg
+      author: OpenCIAg
   -
     scope:
-      type: "post"
+      type: "posts"
       path: ""
     values:
       layout: "post"
   -
     scope:
-      type: "page"
+      type: "pages"
       path: ""
     values:
       layout: "page"
+      page: true
   -
     scope:
       path: "assets"
     values:
       asset: true
+  -
+    scope:
+      path: "projects"
+    values:
+      layout: "project"
+      page: false
+      project: true
+      site: false
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

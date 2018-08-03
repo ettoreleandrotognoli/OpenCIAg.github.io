@@ -27,9 +27,10 @@
     color: $grey-color-dark;
   }
 
+
+  max-height: $base-line-height * $header-font-size;
   > svg {
     fill: white;
-    max-height: $base-line-height * $header-font-size;
   }
 }
 
