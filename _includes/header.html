@@ -18,10 +18,6 @@
         </label>
 
         <div class="trigger">
-          {%- assign projects = site.pages | where: "project", true -%}
-          {%- for project in projects -%}
-          <a class="page-link" href="{{project.url | relative_url }}">{{ project.title | escape }}</a>
-          {%- endfor -%}
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}

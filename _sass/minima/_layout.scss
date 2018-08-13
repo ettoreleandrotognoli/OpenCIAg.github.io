@@ -28,9 +28,11 @@
   }
 
 
-  max-height: $base-line-height * $header-font-size;
+  max-height: $base-line-height * $header-font-size * 2.25;
+  padding: 2px 0px 4px 0px;
   > svg {
     fill: white;
+    height:  $base-line-height * $header-font-size * 2.25;
   }
 }
 
