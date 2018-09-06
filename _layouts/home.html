@@ -21,8 +21,8 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+        {%- if post.abstract -%}
+          {{ post.abstract }}
         {%- endif -%}
       </li>
       {%- endfor -%}
@@ -38,15 +38,15 @@ layout: default
   </h2>
   <ul class="post-list">
     {%- for project in projects -%}
-      <li>
-        <h3>
+      <li class="project">
+        <h3 class="title">
           <a class="post-link" href="{{ project.url | relative_url }}">
             {{ project.title | escape }}
           </a>
+          {%- if project.abstract -%}
+          <p class="abstract">{{ project.abstract }}</p>
+          {%- endif -%}
         </h3>
-        {%- if site.show_excerpts -%}
-          {{ project.excerpt }}
-        {%- endif -%}
       </li>
     {%- endfor -%}
   </ul>

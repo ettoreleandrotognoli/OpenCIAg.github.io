@@ -6,9 +6,6 @@ layout: home
 list_title: "Últimas Notícias"
 ---
 
-# Etincidunt sit sit etincidunt velit.
+# Colaborando com o OpenSource!
 
-Ipsum dolorem quiquia dolorem neque.
-Amet aliquam dolore labore labore sit porro eius.Consectetur etincidunt tempora dolorem dolorem est.Labore sit dolore dolore porro aliquam quisquam.
-Amet sit dolorem numquam ut labore numquam.SDolor adipisci quiquia dolore magnam etincidunt.Modi quisquam neque aliquam.
-Modi adipisci velit tempora labore eius amet.Est amet quaerat amet.
+O OpenCIAg é o nosso movimento de ajudar e contribuir com a comunidade de desenvolvedores e acadêmica, interagindo e compartilhando softwares de código aberto, afim de fomentar e agilizar o desenvolvimento de novas ideias e soluções.
