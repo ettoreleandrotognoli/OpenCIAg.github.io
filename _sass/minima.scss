@@ -60,3 +60,15 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 60%;
   }
 }
+
+
+.dark-blue-filled {
+  > svg {
+    fill: $brand-dark-blue;
+  }
+}
+
+
+.col-6 {
+  width: 50%;
+}
