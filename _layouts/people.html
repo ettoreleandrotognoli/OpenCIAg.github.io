@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<div class="post-content">
+    {{ content }}
+  </div>
+<ul>
+{%- for person in site.data.people -%}
+    <li>
+        {{ person.name }}
+        <div class="social-media-list">
+        {%- if person.homepage %}
+            <a target="_blank" href="//{{ person.homepage| cgi_escape | escape }}">
+                <span alt="homepage" class="svg-icon">{%- include icon-web.svg -%}</span>
+            </a>
+        {%- endif -%}
+        {%- if person.facebook -%}
+            <a target="_blank" href="//www.facebook.com/{{ person.facebook| cgi_escape | escape }}">
+                <svg alt="facebook" class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#facebook' | relative_url }}"></use></svg>
+            </a>
+        {%- endif -%}
+        {%- if person.linkedin -%}
+            <a target="_blank" href="//linkedin.com/in/{{ person.linkedin| cgi_escape | escape }}">
+                <svg alt="linkedin" class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg>
+            </a>
+        {%- endif -%}
+        {%- if person.lattes -%}
+            <a target="_blank" href="//lattes.cnpq.br/{{ person.lattes| cgi_escape | escape }}">
+                <span alt="lattes" class="svg-icon">{%- include icon-lattes.svg -%}</span>
+            </a>
+        {%- endif -%}
+        {%- if person.github -%}
+            <a target="_blank" href="//github.com/{{ person.github| cgi_escape | escape }}">
+                <svg alt="github" class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg>
+            </a>
+        {%- endif -%}
+        {%- if person.gitlab -%}
+            <a target="_blank" href="//gitlab.com/{{ person.gitlab| cgi_escape | escape }}">
+                <span alt="gitlab" class="svg-icon">{%- include icon-gitlab.svg -%}</span>
+            </a>
+        {%- endif -%}
+        {%- if person.bitbucket -%}
+            <a target="_blank" href="//bitbucket.org/{{ person.bitbucket| cgi_escape | escape }}">
+                <span alt="bitbucket" class="svg-icon">{%- include icon-bitbucket.svg -%}</span>
+            </a>
+        {%- endif -%}
+        </div>
+    </li>
+{%- endfor -%}
+</ul>

@@ -1,5 +1,9 @@
-- name: "Mike"
-  occupation: "Giraffe Academy"
-
+- name: "Leonardo R. T. Lima"
+  occupation: "Pesquisador"
+  homepage: leonardortlima.com
+  github: leonardortlima
+  linkedin: leonardorosstlima
+  facebook: leo.limao
+  lattes: "6747896809398990"
 - name: "Steve"
   occupation: "Firefighter"

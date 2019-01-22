@@ -44,12 +44,14 @@ defaults:
       path: ""
     values:
       layout: "post"
+      page: false
   -
     scope:
       type: "pages"
       path: ""
     values:
       layout: "page"
+      order: 0
       page: true
   -
     scope:

@@ -32,8 +32,16 @@
   padding: 2px 0px 4px 0px;
   > svg {
     fill: white;
-    height:  $base-line-height * $header-font-size * 2.25;
+    height:  ($base-line-height * $header-font-size * 2.25) - 10;
+    width: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
+}
+
+span.svg-icon > svg {
+  height: 100%;
+  width: auto;
 }
 
 .site-nav {
