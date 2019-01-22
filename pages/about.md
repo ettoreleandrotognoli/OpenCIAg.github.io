@@ -5,7 +5,10 @@ permalink: /about/
 order: 10
 ---
 
-# Colaborando com o OpenSource!
+Frameworks, bibliotecas, ferramentas e projetos OpenSource desenvolvidos pelo CIAg para o CIAg e agora para toda a comunidade.
 
-O OpenCIAg é o nosso movimento de ajudar e contribuir com a comunidade de desenvolvedores e acadêmica, interagindo e compartilhando softwares de código aberto, afim de fomentar e agilizar o desenvolvimento de novas ideias e soluções.
+O OpenCIAg é o nosso movimento para ajudar e contribuir com a comunidade acadêmica e de desenvolvedores, interagindo e compartilhando softwares de código aberto, afim de fomentar e agilizar o desenvolvimento de novas ideias e soluções.
 
+Fique à vontade para utilizar e contribuir. Interaja conosco para podermos ajudar e aprender juntos.
+
+Códigos, mentes e corações abertos.
