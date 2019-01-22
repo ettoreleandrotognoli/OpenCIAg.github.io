@@ -4,12 +4,8 @@ title: Sobre
 permalink: /about/
 order: 10
 ---
-Esse site foi desenvolvido utilizando como base o tema Jekyll.
-Você pode encontrar mais informações sobre como customizar esse tema e também sua documentação aqui: [jekyllrb.com](https://jekyllrb.com/)
 
-Mais códigos com Minima no GitHub: [minima](https://github.com/jekyll/minima)
+# Colaborando com o OpenSource!
 
-Mais códigos com Jekyll no GitHub: [jekyll](https://github.com/jekyll/jekyll)
+O OpenCIAg é o nosso movimento de ajudar e contribuir com a comunidade de desenvolvedores e acadêmica, interagindo e compartilhando softwares de código aberto, afim de fomentar e agilizar o desenvolvimento de novas ideias e soluções.
 
-
-Obrigado [jekyll-organization](https://github.com/jekyll)!

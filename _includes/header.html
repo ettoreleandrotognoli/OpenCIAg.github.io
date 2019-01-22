@@ -1,6 +1,6 @@
 <header class="site-header" role="banner">
   <div class="wrapper">
-    {%- assign pages = site.pages | where: "page", true | sort: "order" -%}
+    {%- assign pages = site.pages | sort: "order" -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
       {%- include logo.svg -%}      
     </a>
@@ -17,8 +17,11 @@
 
         <div class="trigger">
           {%- for page in pages -%}
-            {%- if page.title -%}
-            <a order="{{ page.order }}" class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+            {%- if page.title and page.page -%}
+            <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+            {%- endif -%}
+            {%- if page.title and page.link -%}
+            <a class="page-link" target="_blank" href="{{ page.link }}">{{ page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
         </div>

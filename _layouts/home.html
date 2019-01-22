@@ -28,7 +28,7 @@ layout: default
       {%- endfor -%}
     </ul>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    <p class="rss-subscribe">Inscreva-se <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 
   {%- assign projects = site.pages | where: "project", true -%}
@@ -40,9 +40,16 @@ layout: default
     {%- for project in projects -%}
       <li class="project">
         <h3 class="title">
-          <a class="post-link" href="{{ project.url | relative_url }}">
-            {{ project.title | escape }}
-          </a>
+          {%- assign has_content = project.content | strip | size -%}
+          {%- if has_content > 0 -%}
+            <a class="post-link" href="{{ project.url | relative_url }}">
+              {{ project.title | escape }}
+            </a>
+          {%- else -%}
+            <a class="post-link" target="_blank" href="{{ project.site }}">
+              {{ project.title | escape }}
+            </a>
+          {%- endif -%}
           {%- if project.abstract -%}
           <p class="abstract">{{ project.abstract }}</p>
           {%- endif -%}

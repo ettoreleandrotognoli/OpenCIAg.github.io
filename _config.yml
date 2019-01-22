@@ -66,6 +66,7 @@ defaults:
       page: false
       project: true
       site: false
+      has_content: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
