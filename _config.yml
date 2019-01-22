@@ -18,7 +18,7 @@ email: contato@ciag.org.br
 description: >- # this means to ignore newlines until "baseurl:"
   Frameworks, bibliotecas, ferramentas e projetos OpenSource desenvolvidos pelo CIAg para o CIAg e agora para toda a comunidade.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://openciag.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://openciag.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  OpenCIAg
 facebook_username: CIAgTech
