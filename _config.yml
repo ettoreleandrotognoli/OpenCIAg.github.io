@@ -23,6 +23,7 @@ url: "https://openciag.github.io" # the base hostname & protocol for your site, 
 github_username:  OpenCIAg
 facebook_username: CIAgTech
 google_analytics: UA-80000331-3
+discord_link: https://discord.gg/Mr6yxp4ZE2
 
 # Build settings
 markdown: kramdown
